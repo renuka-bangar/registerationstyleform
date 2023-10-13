@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>FORM2</title>
+    <style>
+        .one{
+            width: 40%;
+            background-color: goldenrod;
+            border-radius: 30px;
+            margin-left:200px ;
+            border-color: blue;
+        }
+        .two
+        {
+            font-family: cursive;
+            color:purple;
+        }
+        .four
+        {
+            margin-left: 200px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <FORm action="" >
+        <fieldset class="one">
+       <legend><h1>PERSONAL DETAILS</h1> </LEgend>
+            </select>
+       <label for="name" class="two">First Name</label>
+       <input type="text" placeholder="First_Name" id="fname" name="fname" required>
+       <BR></BR>
+
+        <TD><label for="name"  class="two">Middle Name</label>
+        <TD><input type="text" placeholder="Middle_Name" id="mname" name="mname" required>
+        <BR></BR>
+
+        <label for="name"  class="two">Last Name</label>
+        <input type="text" placeholder="Last_Name" id="lname" name="lname" required>
+        <BR></BR>
+
+        <label for="email"  class="two">EMAIL</label>
+        <input type="email" placeholder="email" id="email" name="email"required>
+        <BR></BR>
+
+        <label for="DOB" class="two"> DOB</label>
+        <input type="date" placeholder="DOB" id="DOB" name="DOB" required>
+        <BR></BR>
+
+
+    </fieldset>
+
+    <fieldset class="one">
+    <legend><h1>EDUCATIONAL DETAILS</h1></legend>
+
+    <label for=""  class="two">DEPARTMENT</label>
+    <BR></BR>
+    <input type="radio" name="DEPT" id="CS" value="cs" >
+    <LAbel for="">cse</LAbel>
+
+    <input type="radio" name="DEPT" id="CIVIL" value="CV">
+    <LAbel for="">CIVIL</LAbel>
+
+    <input type="radio" name="DEPT" id="MECH" value="ME">
+    <LAbel for="">MECH</LAbel>
+
+    <BR></BR>
+    <label for="yog"  class="two">YEAR OF GRADUATION</label>
+    <Input list="yog" id="yop" name="yop">
+        
+    <datalist id="yog">
+        <option >2018</option>
+        <option >2019</option>
+        <option >2020</option>
+        <option >2021</option>
+        <option >2022</option>
+        <option >2023</option>
+
+    </datalist>
+    <BR></BR>
+    <label for="sk"  class="two">SKILLS</label>
+    <BR></BR>
+    <INPut type="checkbox" id="sk">HTML
+    <INPut type="checkbox" id="sk">CSS
+    <INPut type="checkbox" id="sk">JAVA SCRIPT
+ 
+    </fieldset>
+
+    </FORm>
+    <BR>
+    <INPut type="submit" class="four"></INPut>
+    
+</body>
+</html>
